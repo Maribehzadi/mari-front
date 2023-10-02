@@ -1,0 +1,25 @@
+div {
+  width: 100%;
+  height: 150px;
+}
+.linear {
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-image: linear-gradient(rgb(4, 247, 186), black);
+}
+.image {
+  text-align: center;
+  background-position: center;
+  background-image: url(image/image/image.jpg);
+  background-repeat: repeat-x;
+}
+.color {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.box {
+  background-color: gray;
+  height: 300px;
+}
