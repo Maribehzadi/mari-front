@@ -1,0 +1,24 @@
+div {
+  width: 600px;
+  height: 200px;
+}
+.rang {
+  background-color: rgb(35, 240, 17);
+  font-size: 40px;
+  color: red;
+}
+.rgb {
+  background-color: rgb(14, 14, 243);
+  font-size: 40px;
+  color: rgb(77, 11, 138);
+}
+.hex {
+  background-color: #deee05;
+  font-size: 40px;
+  color: #058805;
+}
+.hsl {
+  background-color: hsl(281, 91%, 27%);
+  font-size: 40px;
+  color: hsl(350, 92%, 76%);
+}
