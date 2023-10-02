@@ -1,0 +1,9 @@
+div {
+  background-image: url(image/images/background.jpg);
+  background-color: rgb(8, 8, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 700px;
+  height: 500px;
+}
