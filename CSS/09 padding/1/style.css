@@ -1,0 +1,22 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-repeat: no-repeat;
+  height: 755px;
+  width: 100%;
+  background-image: linear-gradient(rgb(22, 0, 119), rgb(5, 238, 218));
+}
+.image {
+  background-position: center;
+  width: 850px;
+  height: 850px;
+  background-size: cover;
+  background-image: url(image/background.jpg);
+}
+.p {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+}
