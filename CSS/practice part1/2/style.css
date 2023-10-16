@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(34, 31, 31), rgb(163, 66, 228));
+  text-align: center;
+  color: white;
+}
+.name h2 {
+  font-size: 30px;
+  padding-top: 30px;
+}
+.name p {
+  padding-top: 20px;
+}
+.image {
+  height: 250px;
+  width: 90%;
+  background-image: url(image/SteveJobs.jpg);
+  margin: auto;
+  margin-top: 100px;
+  background-position: center;
+}
+.image p {
+  margin: auto;
+  width: 90%;
+  padding-top: 90px;
+  font-size: 50px;
+  color: rgb(0, 255, 255);
+}
+.bio {
+  text-align: left;
+  margin: auto;
+  margin-top: 90px;
+  width: 500px;
+}
+.bio h1 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.
