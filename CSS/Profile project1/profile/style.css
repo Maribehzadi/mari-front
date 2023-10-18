@@ -26,7 +26,6 @@
   border-radius: 50%;
   outline: 3px black solid;
   margin: auto;
-  margin-top: 80px;
 }
 .intro-text {
   padding: 100px;
@@ -61,7 +60,7 @@
 .career {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(black, black, gray, white);
+  background-color: black;
   background-attachment: fixed;
 }
 .career-image {
@@ -74,17 +73,14 @@
   color: white;
   text-align: center;
   font-size: 30px;
-  padding-bottom: 200px;
+  padding-top: 100px;
 }
 
-.career-image-padding {
-  margin-bottom: 250px;
-}
 .career-note p {
   color: white;
   font-size: 20px;
   text-align: center;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 .movies {
   width: 100%;
@@ -93,4 +89,10 @@
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.movies-lists {
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 20px;
 }
