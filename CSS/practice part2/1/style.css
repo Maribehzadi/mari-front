@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(84, 104, 138),black);
+}
+.title {
+  color: white;
+  text-align: center; 
+  padding-top: 30px;
+}
+.title h5 {
+  padding-top: 15px;
+}
+tr,th {
+  padding: 20px 20px;
+}
+.table th{
+  border: 1px rgba(0, 0, 0, 0) solid ;
+  background-image: linear-gradient(white,rgb(0, 119, 128));
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  font-family: 'Montserrat', sans-serif;
+}
+.table {
+  margin: auto;
+  margin-top: 50px;
+}
+.visibel {
+  visibility: hidden;
+}
+th:hover  {
+  border-radius: 50%;
+  color: white;
+  background-image: linear-gradient(rgb(87, 82, 82),rgb(133, 125, 125));
+  transition: 0.4s;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right , rgb(0, 195, 255),rgb(109, 37, 150));
+}
+.one {
+ margin: auto;
+}
+.title-table {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  visibility: hidden;
+}
+th,td{
+  border: 2px solid rgba(141, 135, 135, 0.096);
+  background-color: rgba(255, 255, 255, 0.062);
+  color: white;
+  padding: 10px 20px ;
+  
+}
+.table {
+ margin: auto;
+
+}
+.link-th {
+  background-color: rgb(35, 98, 214);
+}
+.link-title {
+background-color: rgb(35, 98, 214);
+
+}
+td:hover {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062) ,rgb(109, 37, 150));
+  background-repeat: no-repeat;
+  visibility: visible;
+}
+td {
+  visibility: collapse;
+}
+table:hover td{
+  visibility: visible;
+}
+.one:hover h4{
+  visibility: visible;
+} 
