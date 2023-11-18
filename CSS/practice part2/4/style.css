@@ -9,14 +9,18 @@ body {
   background-repeat: no-repeat;
 }
 .box {
-  width: 200px;
-  height: 250px;
+  width:200px ;
+  height: 300;
   border: 2px solid white;
-  margin: auto;
-  margin-top: 70px;
   background-color: rgba(255, 255, 255, 0.274);
 }
-.box .material-symbols-outlined {
+.box-top {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 70px;
+}
+.box-top .material-symbols-outlined {
   width: 100%;
  text-align: center;
  margin: auto;
@@ -30,7 +34,7 @@ body {
 .box-paragraph {
   font-size: 0px;
 }
-.box:hover .box-text {
+.box-top:hover .box-text {
   width: 100%;
   height: 200px;
   border: 2px solid white;
