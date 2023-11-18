@@ -44,9 +44,21 @@ body {
   color: white;
   
 }
+tr:hover .material-symbols-outlined {
+  background-color: aqua;
+  color: black;
+}
 tr:hover {
   background-color: aqua;
   color: black;
+}
+tr:active .material-symbols-outlined{
+  background-color: blue;
+  color: white;
+}
+tr:active {
+  background-color: blue;
+  color: white;
 }
 .home-icon:hover {
   color: black;
@@ -63,7 +75,10 @@ tr:hover {
 .note:hover {
   color: black;
 }
-
+tr {
+  border-bottom: 5px solid rgb(170, 164, 164);
+  cursor: pointer;
+}
 
 
 
