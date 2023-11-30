@@ -5,40 +5,49 @@
 body {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgb(4, 4, 82),rgb(37, 37, 247));
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(3, 3, 99),rgb(96, 96, 253));
 }
 .box {
-  width:200px ;
-  height: 300;
-  border: 2px solid white;
-  background-color: rgba(255, 255, 255, 0.274);
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  transition: 1s;
 }
 .box-top {
   width: 200px;
-  height: 200px;
-  margin: auto;
-  margin-top: 70px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.322);
+  border: 2px solid white;
 }
-.box-top .material-symbols-outlined {
+.box .material-symbols-outlined {
+  font-size: 100px;
   width: 100%;
- text-align: center;
- margin: auto;
- font-size: 120px;
+  margin: auto;
+  text-align: center;
+  color: rgb(3, 3, 54);
 }
 .box-title {
- text-align: center;
- color: white;
- padding: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
 }
-.box-paragraph {
+.box-text {
   font-size: 0px;
-}
-.box-top:hover .box-text {
   width: 100%;
-  height: 200px;
+  height: 0;
+}
+.box:hover .box-text {
+  width: 200px;
+  height: 150px;
   border: 2px solid white;
   background-color: white;
-  margin: auto;
-
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+  transition: 0.5s;
+}
+.box:hover {
+  margin-top: 115px;
+  transition: 0.5s;
 }
