@@ -19,6 +19,7 @@ body {
   height: 60px;
   background-image: url(image/sea.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 .sea2 {
@@ -26,7 +27,8 @@ body {
   height: 30px;
   background-image: url(image/sea.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   margin: auto;
   margin-top: 10px;
 }
@@ -35,7 +37,8 @@ body {
   height: 80px;
   background-image: url(image/sea.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   margin: auto;
   margin-top: 20px;
 }
@@ -53,15 +56,18 @@ body {
   background-image: url(image/boat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
   display: inline-block;
 }
 .boat2 {
-  width: 40%;
-  height: 150px;
+  width: 48%;
+  height: 198px;
   border: 1px white solid;
   background-image: url(image/boat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: inline-block;
 }
 .boat3 {
@@ -71,5 +77,39 @@ body {
   background-image: url(image/boat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: inline-block;
+}
+.box3 {
+  width: 90%;
+  height: 200px;
+  border: 2px wheat solid;
+  margin: auto;
+  margin-top: 50px;
+}
+.cat-dog {
+  width: 150px;
+  height: 180px;
+  border: 1px white solid;
+  background-image: url(image/cat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10px;
+}
+.cat {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+}
+.dog {
+  display: block;
+}
+.cat-dog:hover {
+  background-image: url(image/dog.jpg);
+}
+.cat:hover {
+  display: block;
 }
