@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+}
+.box-visible {
+  width: 40%;
+  height: 20%;
+  margin-left: 10px;
+  display: inline-block;
+}
+.title-visible {
+  color: black;
+}
+.paragraph-visible {
+  color: white;
+}
+.overflow-visible {
+  width: 200px;
+  height: 100px;
+  background-color: greenyellow;
+  overflow: visible;
+}
+.box-hidden {
+  width: 40%;
+  height: 20%;
+  margin-left: 10px;
+  display: inline-block;
+  margin-left: 100px;
+}
+.title-hidden {
+  color: black;
+}
+.paragraph-hidden {
+  color: white;
+}
+.overflow-hidden {
+  width: 200px;
+  height: 100px;
+  background-color: greenyellow;
+  overflow: hidden;
+}
+.box-scroll {
+  width: 40%;
+  height: 20%;
+  margin-left: 10px;
+  display: inline-block;
+}
+.title-scroll {
+  color: black;
+}
+.paragraph-scroll {
+  color: white;
+}
+.overflow-scroll {
+  width: 200px;
+  height: 100px;
+  background-color: greenyellow;
+  overflow: scroll;
+}
+.box-auto {
+  width: 40%;
+  height: 20%;
+  margin-left: 10px;
+  display: inline-block;
+  margin-left: 100px;
+}
+.title-auto {
+  color: black;
+}
+.paragraph-auto {
+  color: white;
+}
+.overflow-auto {
+  width: 200px;
+  height: 100px;
+  background-color: greenyellow;
+  overflow: auto;
+}
