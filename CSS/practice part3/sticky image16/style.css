@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.box {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.sticky-image {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.sticky-image-paragraph {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.image-cat {
+  width: 300px;
+  height: 200px;
+  background-image: url(images/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+}
+.scroll-down {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.some-example {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.remove {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.paragraph {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.paragraph2 {
+  padding-top: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(gray, rgb(2, 141, 129));
+}
+.animals {
+  text-align: center;
+  padding-top: 50px;
+}
+.animals-title {
+  padding-bottom: 5px;
+  color: aliceblue;
+}
+.animals-text {
+  padding-top: 5px;
+}
+.box-animals {
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  margin-top: 30px;
+}
+.dog {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(90px);
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.title-dog {
+  text-align: center;
+  color: aliceblue;
+}
+.paragraph-dog {
+  width: 250px;
+  text-align: justify;
+  padding-left: 20px;
+}
+.cat {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(85px);
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.title-cat {
+  text-align: center;
+  color: aliceblue;
+}
+.paragraph-cat {
+  width: 250px;
+  text-align: justify;
+  padding-left: 20px;
+}
+.lion {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(79px);
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.title-lion {
+  text-align: center;
+  color: aliceblue;
+}
+.paragraph-lion {
+  width: 250px;
+  text-align: justify;
+  padding-left: 20px;
+}
+.horse {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(75px);
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.title-horse {
+  text-align: center;
+  color: aliceblue;
+}
+.paragraph-horse {
+  width: 250px;
+  text-align: justify;
+  padding-left: 20px;
+}
+.box-image {
+  width: 100%;
+  height: 150px;
+  margin: auto;
+}
+.dog-image {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(90px);
+  border: 1px solid white;
+  background-image: url(images/dog.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.cat-image {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(85px);
+  border: 1px solid white;
+  background-image: url(images/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.lion-image {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(79px);
+  border: 1px solid white;
+  background-image: url(images/lion.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.horse-image {
+  width: 22%;
+  height: 140px;
+  display: inline-block;
+  transform: translateX(75px);
+  border: 1px solid white;
+  background-image: url(images/horse.jpg);
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 100px;
+}

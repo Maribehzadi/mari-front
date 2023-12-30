@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+.box-lion {
+  width: 50%;
+  height: 100vh;
+  background-color: gray;
+  float: left;
+}
+.ima-lion {
+  width: 20%;
+  height: 20%;
+  background-image: url(images/lion.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 90px;
+  margin: auto;
+  margin-top: 200px;
+}
+.title-lion {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.text-lion {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.box-dog {
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+  float: right;
+}
+.ima-dog {
+  width: 20%;
+  height: 20%;
+  background-image: url(images/dog.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 90px;
+  margin: auto;
+  margin-top: 200px;
+}
+.title-dog {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.text-dog {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}

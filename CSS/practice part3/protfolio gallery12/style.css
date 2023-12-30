@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 200vh;
+  background-image: linear-gradient(rgb(34, 69, 92), rgb(45, 155, 189));
+}
+.box-note {
+  width: 50%;
+  margin: auto;
+  margin-top: 70px;
+}
+.welcome {
+  padding-bottom: 10px;
+}
+.portfolio {
+  padding-top: 10px;
+}
+.big-box {
+  width: 50%;
+  height: 160vh;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+}
+.box1 {
+  width: 30%;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.image1 {
+  height: 400px;
+  background-image: url(images/horse.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.h5-one {
+  padding-top: 15px;
+}
+.p-one {
+  padding-top: 10px;
+}
+.box2 {
+  width: 30%;
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+.image2 {
+  height: 400px;
+  background-image: url(images/horse.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.h5-two {
+  padding-top: 15px;
+}
+.p-two {
+  padding-top: 10px;
+}
+.box3 {
+  width: 30%;
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.image3 {
+  height: 400px;
+  background-image: url(images/horse.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.h5-three {
+  padding-top: 15px;
+}
+.p-three {
+  padding-top: 10px;
+}
+.box4 {
+  width: 95%;
+  margin: auto;
+}
+.image-lion {
+  height: 400px;
+  background-image: url(images/lion.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+.h5-four {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.p-four {
+  padding-top: 10px;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+}
+.nav {
+  width: 98%;
+  height: 50px;
+  background-color: rgb(189, 186, 186);
+  margin: auto;
+  margin-top: 15px;
+}
+.home {
+  display: inline-block;
+  transition: none;
+  padding: 15px;
+}
+.news {
+  display: inline-block;
+  transition: none;
+  padding: 15px;
+}
+.contact {
+  display: inline-block;
+  transition: none;
+  padding: 15px;
+}
+.help {
+  height: 30px;
+  display: inline-block;
+  transition: none;
+  float: right;
+  padding: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+}
