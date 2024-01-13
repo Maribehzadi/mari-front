@@ -18,6 +18,17 @@ body {
   padding: 5px;
   text-align: center;
 }
-.home .material-symbols-outlined {
+.home {
   background-color: darkblue;
+}
+.box2 {
+  width: 100%;
+  margin-top: 200px;
+}
+
+.box2 div {
+  background-color: grey;
+  color: aliceblue;
+  float: left;
+  padding: 10px 40px;
 }
