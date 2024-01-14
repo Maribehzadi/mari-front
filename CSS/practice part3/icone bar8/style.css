@@ -22,13 +22,15 @@ body {
   background-color: darkblue;
 }
 .box2 {
-  width: 100%;
   margin-top: 200px;
+  margin-left: 50px;
 }
-
 .box2 div {
   background-color: grey;
   color: aliceblue;
   float: left;
   padding: 10px 40px;
+}
+.box2 .home {
+  background-color: darkblue;
 }
