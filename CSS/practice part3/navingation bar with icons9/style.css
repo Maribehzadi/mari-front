@@ -14,11 +14,14 @@ body {
   margin-left: 5px;
   margin-top: 20px;
 }
+nav {
+  height: 100%;
+}
 div {
-  height: 90%;
+  height: 100%;
+  width: 15%;
   float: left;
   color: aliceblue;
-  padding: 0px 10px;
 }
 .fa {
   padding: 10px 10px;
