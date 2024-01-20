@@ -33,6 +33,26 @@ body {
 .link {
   width: 70px;
   position: absolute;
-  background-color: black;
-  left: 120px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  left: 130px;
+  top: 140px;
+  box-shadow: 3px 3px 3px gray;
+  display: none;
+}
+.one {
+  padding: 10px;
+}
+.dropdown:hover .link {
+  display: block;
+}
+.box2 {
+  margin-top: 200px;
+  margin-left: 10px;
+  background-color: aqua;
+  padding: 10px;
+  width: 45px;
+}
+.dropup {
+  list-style-type: none;
 }
